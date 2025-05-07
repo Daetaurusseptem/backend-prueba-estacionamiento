@@ -38,6 +38,10 @@ mysql -u root -p estacionamiento < database.sql
 ## ▶️ Ejecución
 
 ```bash
+tsc
+
+y despues
+
 npm run dev
 ```
 
