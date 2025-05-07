@@ -1,0 +1,1 @@
+export type TipoVehiculo = 'oficial' | 'residente' | 'no_residente';
