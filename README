@@ -16,6 +16,8 @@ npm install
 
 ## ⚙️ Configuración
 
+
+
 Crea un archivo `.env` basado en `.env.example`:
 
 ```
@@ -36,6 +38,15 @@ mysql -u root -p estacionamiento < database.sql
 ```
 
 ## ▶️ Ejecución
+
+## 🔁 Ejecución con nodemon (opcional)
+
+Si deseas que el servidor se reinicie automáticamente al detectar cambios, puedes usar `nodemon`.
+
+### Instalación local (recomendado)
+
+```bash
+npm install --save-dev nodemon
 
 ```bash
 tsc
